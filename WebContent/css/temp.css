@@ -1,0 +1,129 @@
+
+.equipe-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.equipe-card {
+    width: calc(33% - 10px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipe-card-buttons {
+    margin-top: 10px;
+}
+
+.artists-thumb {
+  flex-grow: 1;
+}
+.artists-image-wrap {
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.artists-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust the object-fit property as needed */
+}
+
+.about-section2 {
+  background-image: url('../images/cc.jpg');
+  background-color: #704010;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+/*---------------------------------------
+  SCHEDULE              
+-----------------------------------------*/
+.schedule-section {
+  background-image: url('../images/cc.jpg');
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.schedule2-section {
+  background-image: url('../images/H.jpg');
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.table-responsive {
+	filter: drop-shadow(2px 2px 4px #606060);
+}
+
+.schedule-table {
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+}
+
+.schedule-table .bg-warning {
+  background: #f0a5a5 !important;
+}
+
+.schedule-table thead th {
+  background-color: var(--secondary-color);
+}
+
+.schedule-table th,
+.schedule-table tr,
+.schedule-table td {
+  border-bottom-color: #363a3e;
+  padding: 30px;
+}
+
+.schedule-table tr:last-child th,
+.schedule-table tr:last-child td {
+  border-bottom-color: transparent;
+}
+
+.schedule-table thead th {
+  border-right: 1px solid #c7460a;
+  border-bottom-color: transparent;
+}
+
+.schedule-table th + td {
+  border-bottom: 0;
+}
+
+.schedule-table thead th:last-child {
+  border-right-color: transparent;
+}
+
+.schedule-table .pop-background-image {
+  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+}
+
+.schedule-table .rock-background-image {
+  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+}
+
+.schedule-table .country-background-image {
+  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+}
+
+.table-background-image-wrap {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: none;
+  position: relative;
+}
+
+.schedule-table h3,
+.schedule-table p {
+  color: var(--white-color);
+  position: relative;
+  z-index: 2;
+}
